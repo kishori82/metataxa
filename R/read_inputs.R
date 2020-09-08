@@ -6,13 +6,9 @@
 #'
 #' @export
 
-
 hello <- function(txt = "world") {
   cat("Hello, ", txt, "\n")
 }
-#' @useDynLib metataxa
-#' @importFrom Rcpp sourceCpp
-NULL
 
 
 #' The first test function
@@ -28,4 +24,22 @@ NULL
 fbind <- function(a, b) {
   factor(c(as.character(a), as.character(b)))
 }
+
+
+#' @title delta_star
+#' @description
+#' @name delta_star
+#' @param file_name file name with taxa
+#'
+#' @export
+
+delta_star <- function(file_name = NULL) {
+  compute_tax_distance(file_name)
+  dir()
+  return(read.csv(file_name))
+}
+
+#' @useDynLib metataxa
+#' @importFrom Rcpp sourceCpp
+NULL
 

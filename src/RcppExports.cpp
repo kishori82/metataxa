@@ -5,6 +5,16 @@
 
 using namespace Rcpp;
 
+// compute_tax_distance
+void compute_tax_distance(std::string& tax_file_name);
+RcppExport SEXP _metataxa_compute_tax_distance(SEXP tax_file_nameSEXP) {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< std::string& >::type tax_file_name(tax_file_nameSEXP);
+    compute_tax_distance(tax_file_name);
+    return R_NilValue;
+END_RCPP
+}
 // timesTwo
 NumericVector timesTwo(NumericVector x);
 RcppExport SEXP _metataxa_timesTwo(SEXP xSEXP) {
@@ -29,6 +39,7 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
+    {"_metataxa_compute_tax_distance", (DL_FUNC) &_metataxa_compute_tax_distance, 1},
     {"_metataxa_timesTwo", (DL_FUNC) &_metataxa_timesTwo, 1},
     {"_metataxa_myFunction", (DL_FUNC) &_metataxa_myFunction, 1},
     {NULL, NULL, 0}
