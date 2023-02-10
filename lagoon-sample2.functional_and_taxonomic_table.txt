@@ -1,0 +1,215 @@
+ORF_ID	ORF_length	start	end	Contig_Name	Contig_length	strand	ec	taxonomy	product
+lagoon-sample2_59_0	338	1	339	lagoon-sample2_59	2544	-		root;cellular organisms;prokaryotes; (2157)	phage portal protein
+lagoon-sample2_59_1	263	445	708	lagoon-sample2_59	2544	+		root; (1)	hypothetical protein
+lagoon-sample2_59_2	221	705	926	lagoon-sample2_59	2544	-		root; (1)	hypothetical protein
+lagoon-sample2_59_3	308	948	1256	lagoon-sample2_59	2544	-		root; (1)	hypothetical protein
+lagoon-sample2_59_4	1301	1243	2544	lagoon-sample2_59	2544	-		root;cellular organisms;prokaryotes; (2157)	PBSX family phage terminase large subunit
+lagoon-sample2_41_0	386	3	389	lagoon-sample2_41	632	+		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup;Desulfovibrionales Kuever et al. 2006;Desulfomicrobiaceae Kuever et al. 2006 emend. Watanabe et al. 2015;Desulfomicrobium Rozanova et al. 1994 emend. Dias et al. 2008; (898)	pyruvate carboxyltransferase
+lagoon-sample2_41_1	137	493	630	lagoon-sample2_41	632	+		root; (1)	hypothetical protein
+lagoon-sample2_54_0	485	3	488	lagoon-sample2_54	489	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Clostridium Prazmowski 1880 emend. Lawson and Rainey 2016; (1485)	phosphoribosylformylglycinamidine synthase
+lagoon-sample2_67_0	1871	242	2113	lagoon-sample2_67	12184	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003; (57665)	MULTISPECIES: molecular chaperone HtpG
+lagoon-sample2_67_1	659	2253	2912	lagoon-sample2_67	12184	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003;strain Phe91; (366522)	MULTISPECIES: 1-acyl-sn-glycerol-3-phosphate acyltransferase
+lagoon-sample2_67_2	1106	2926	4032	lagoon-sample2_67	12184	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003;strain Phe91; (366522)	hypothetical protein
+lagoon-sample2_67_3	671	4025	4696	lagoon-sample2_67	12184	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003; (57665)	MULTISPECIES: phosphoribosylformylglycinamidine synthase subunit PurQ
+lagoon-sample2_67_4	245	4690	4935	lagoon-sample2_67	12184	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003; (57665)	phosphoribosylformylglycinamidine synthase subunit PurS
+lagoon-sample2_67_5	713	4957	5670	lagoon-sample2_67	12184	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003; (57665)	phosphoribosylaminoimidazolesuccinocarboxamide synthase
+lagoon-sample2_67_6	1343	5685	7028	lagoon-sample2_67	12184	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003;strain Phe91; (366522)	MULTISPECIES: S41 family peptidase
+lagoon-sample2_67_7	2573	7256	9829	lagoon-sample2_67	12184	+		root; (1)	MULTISPECIES: AAA family ATPase
+lagoon-sample2_67_8	425	9869	10294	lagoon-sample2_67	12184	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003;strain Phe91; (366522)	hypothetical protein
+lagoon-sample2_67_9	440	10370	10810	lagoon-sample2_67	12184	+		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003;strain Phe91; (366522)	hypothetical protein
+lagoon-sample2_67_10	497	10773	11270	lagoon-sample2_67	12184	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003;strain Phe91; (366522)	ribonuclease E activity regulator RraA
+lagoon-sample2_67_11	407	11728	12135	lagoon-sample2_67	12184	+		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003; (57665)	MULTISPECIES: methylaspartate mutase subunit S
+lagoon-sample2_82_0	536	78	614	lagoon-sample2_82	615	-		root;cellular organisms;eukaryotes;opisthokonts;multicellular animals;Eumetazoa;Bilateria;deuterostomes;chordates;Craniata;vertebrates;jawed vertebrates;Teleostomi;bony vertebrates;Sarcopterygii;Dipnotetrapodomorpha;tetrapods;amniotes;sauropsids;diapsids;reptiles;squamates;split-tongued squamates;Unidentata;scincomorph lizards;skinks;Sphenomorphinae;Ristella Gray 1839; (245672)	ParB/RepB/Spo0J family partition protein
+lagoon-sample2_23_0	164	1	165	lagoon-sample2_23	339	+		root; (1)	hypothetical protein
+23_0_rRNA	0	4	339	lagoon-sample2_23	0	+		root; (1)	16S rRNA
+lagoon-sample2_6_0	65	562	627	lagoon-sample2_6	629	+		root; (1)	hypothetical protein
+6_0_rRNA	0	141	629	lagoon-sample2_6	0	+		root; (1)	16S rRNA
+lagoon-sample2_56_0	839	3	842	lagoon-sample2_56	842	+		root; (1)	hypothetical protein
+lagoon-sample2_4_0	926	387	1313	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+lagoon-sample2_4_1	1976	1323	3299	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+lagoon-sample2_4_2	449	3300	3749	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+lagoon-sample2_4_3	1316	3820	5136	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+lagoon-sample2_4_4	593	5133	5726	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+lagoon-sample2_4_5	800	5813	6613	lagoon-sample2_4	11676	-		root; (1)	hypothetical protein
+lagoon-sample2_4_6	200	6913	7113	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+lagoon-sample2_4_7	1139	7106	8245	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+lagoon-sample2_4_8	812	8238	9050	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+lagoon-sample2_4_9	539	9064	9603	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+lagoon-sample2_4_10	980	9603	10583	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+lagoon-sample2_4_11	233	10591	10824	lagoon-sample2_4	11676	-		root; (1)	hypothetical protein
+lagoon-sample2_4_12	542	11026	11568	lagoon-sample2_4	11676	+		root; (1)	hypothetical protein
+4_0_tRNA	73	73	146	lagoon-sample2_4	11676	+		root; (1)	tRNA-Met
+4_1_tRNA	72	159	231	lagoon-sample2_4	11676	+		root; (1)	tRNA-Phe
+lagoon-sample2_97_0	362	1	363	lagoon-sample2_97	465	+		root; (1)	hypothetical protein
+lagoon-sample2_97_1	101	364	465	lagoon-sample2_97	465	+		root; (1)	hypothetical protein
+lagoon-sample2_96_0	551	2	553	lagoon-sample2_96	775	+		root; (1)	# GT4 # bacteria #
+lagoon-sample2_109_0	305	2	307	lagoon-sample2_109	307	+		root; (1)	hypothetical protein
+lagoon-sample2_85_0	251	58	309	lagoon-sample2_85	309	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953; (186802)	ATP-binding protein
+lagoon-sample2_49_0	302	2	304	lagoon-sample2_49	304	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+; (1239)	rRNA pseudouridine synthase
+lagoon-sample2_47_0	707	3	710	lagoon-sample2_47	710	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953; (186802)	PTS sugar transporter subunit IIC
+lagoon-sample2_34_0	752	53	805	lagoon-sample2_34	1600	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Clostridium Prazmowski 1880 emend. Lawson and Rainey 2016; (1485)	oxaloacetate decarboxylase subunit alpha
+lagoon-sample2_34_1	710	754	1464	lagoon-sample2_34	1600	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Clostridium Prazmowski 1880 emend. Lawson and Rainey 2016; (1485)	oxaloacetate decarboxylase subunit alpha
+lagoon-sample2_34_2	68	1532	1600	lagoon-sample2_34	1600	+		root; (1)	hypothetical protein
+lagoon-sample2_19_0	962	3	965	lagoon-sample2_19	2707	-		root; (1)	hypothetical protein
+lagoon-sample2_19_1	287	1159	1446	lagoon-sample2_19	2707	+		root; (1)	hypothetical protein
+lagoon-sample2_19_2	464	1427	1891	lagoon-sample2_19	2707	+		root; (1)	hypothetical protein
+lagoon-sample2_19_3	752	1953	2705	lagoon-sample2_19	2707	-		root; (1)	hypothetical protein
+lagoon-sample2_93_0	461	3	464	lagoon-sample2_93	464	-		root;cellular organisms; (131567)	MULTISPECIES: amino acid permease
+lagoon-sample2_62_0	587	18	605	lagoon-sample2_62	605	+		root;cellular organisms;prokaryotes;Fibrobacteres/Acidobacteria group;Cytophagales/Green sulfur bacteria group;Cytophaga-Flexibacter-Bacteroides phylum;Bacteroidia Krieg 2012;Bacteroidales Krieg 2012;Bacteroidaceae Pribram 1933;Ristella;strain XDT-1; (477666)	MULTISPECIES: magnesium transporter CorA family protein
+lagoon-sample2_98_0	374	3	377	lagoon-sample2_98	378	+		root; (1)	hypothetical protein
+lagoon-sample2_14_0	641	1	642	lagoon-sample2_14	970	+		root; (1)	MULTISPECIES: molybdate ABC transporter permease subunit
+lagoon-sample2_14_1	326	644	970	lagoon-sample2_14	970	+		root; (1)	ATP-binding cassette domain-containing protein
+lagoon-sample2_84_0	350	3	353	lagoon-sample2_84	355	+		root; (1)	Ig-like domain-containing protein
+lagoon-sample2_38_0	209	251	460	lagoon-sample2_38	461	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Clostridium Prazmowski 1880 emend. Lawson and Rainey 2016; (1485)	NAD(+) synthase
+lagoon-sample2_27_0	65	406	471	lagoon-sample2_27	471	+		root; (1)	hypothetical protein
+27_0_rRNA	0	1	220	lagoon-sample2_27	0	+		root; (1)	16S rRNA
+lagoon-sample2_36_0	461	2	463	lagoon-sample2_36	1113	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Tissierellia;unclassified Tissierellia;Sedimentibacter Breitenstein et al. 2002; (190972)	asparagine--tRNA ligase
+lagoon-sample2_36_1	191	821	1012	lagoon-sample2_36	1113	-		unclassified Tissierellia	MULTISPECIES: 50S ribosomal protein L28
+lagoon-sample2_69_0	338	2	340	lagoon-sample2_69	3873	+		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup;Desulfovibrionales Kuever et al. 2006;Desulfomicrobiaceae Kuever et al. 2006 emend. Watanabe et al. 2015;Desulfomicrobium Rozanova et al. 1994 emend. Dias et al. 2008; (898)	NAD(P)-dependent glycerol-3-phosphate dehydrogenase
+lagoon-sample2_69_1	401	344	745	lagoon-sample2_69	3873	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup;Desulfovibrionales Kuever et al. 2006;Desulfomicrobiaceae Kuever et al. 2006 emend. Watanabe et al. 2015;Desulfomicrobium Rozanova et al. 1994 emend. Dias et al. 2008; (898)	YjbQ family protein
+lagoon-sample2_69_2	410	739	1149	lagoon-sample2_69	3873	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup;Desulfovibrionales Kuever et al. 2006;Desulfomicrobiaceae Kuever et al. 2006 emend. Watanabe et al. 2015;Desulfomicrobium Rozanova et al. 1994 emend. Dias et al. 2008; (898)	ATP-binding protein
+lagoon-sample2_69_3	815	1151	1966	lagoon-sample2_69	3873	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup;Desulfovibrionales Kuever et al. 2006;Desulfomicrobiaceae Kuever et al. 2006 emend. Watanabe et al. 2015;Desulfomicrobium Rozanova et al. 1994 emend. Dias et al. 2008; (898)	SpoIIE family protein phosphatase
+lagoon-sample2_69_4	281	1991	2272	lagoon-sample2_69	3873	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup;Desulfovibrionales Kuever et al. 2006;Desulfomicrobiaceae Kuever et al. 2006 emend. Watanabe et al. 2015;Desulfomicrobium Rozanova et al. 1994 emend. Dias et al. 2008; (898)	SpoIIE family protein phosphatase
+lagoon-sample2_69_5	1247	2349	3596	lagoon-sample2_69	3873	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup;Desulfovibrionales Kuever et al. 2006;Desulfomicrobiaceae Kuever et al. 2006 emend. Watanabe et al. 2015;Desulfomicrobium Rozanova et al. 1994 emend. Dias et al. 2008;strain ESC 1; (29503)	M48 family metallopeptidase
+69_0_tRNA	71	3715	3786	lagoon-sample2_69	3873	+		root; (1)	tRNA-Val
+lagoon-sample2_112_0	347	3	350	lagoon-sample2_112	350	+		root; (1)	hypothetical protein
+lagoon-sample2_64_0	515	3	518	lagoon-sample2_64	519	+		root; (1)	hypothetical protein
+lagoon-sample2_25_0	320	1	321	lagoon-sample2_25	404	+		root; (1)	hypothetical protein
+25_0_rRNA	0	166	404	lagoon-sample2_25	0	+		root; (1)	16S rRNA
+lagoon-sample2_9_0	65	258	323	lagoon-sample2_9	325	+		root; (1)	hypothetical protein
+9_0_tRNA	72	252	324	lagoon-sample2_9	325	+		root; (1)	tRNA-Thr
+1_0_rRNA	0	1	333	lagoon-sample2_1	0	+		root; (1)	16S rRNA
+lagoon-sample2_80_0	311	1	312	lagoon-sample2_80	314	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+; (1239)	glycine/sarcosine/betaine reductase component B subunit
+lagoon-sample2_102_0	338	3	341	lagoon-sample2_102	342	-		root; (1)	hypothetical protein
+lagoon-sample2_55_0	368	1	369	lagoon-sample2_55	398	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;unclassified Clostridiales;Intestinimonas Klaring et al. 2013;strain SRB-521-5-I; (1297617)	MULTISPECIES: GPR endopeptidase
+lagoon-sample2_40_0	266	72	338	lagoon-sample2_40	339	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Clostridium Prazmowski 1880 emend. Lawson and Rainey 2016; (1485)	MBL fold metallo-hydrolase
+lagoon-sample2_10_0	110	1	111	lagoon-sample2_10	8155	-		root; (1)	hypothetical protein
+lagoon-sample2_10_1	629	363	992	lagoon-sample2_10	8155	-		root; (1)	hypothetical protein
+lagoon-sample2_10_2	2432	1119	3551	lagoon-sample2_10	8155	+		root; (1)	hypothetical protein
+lagoon-sample2_10_3	1091	3943	5034	lagoon-sample2_10	8155	+		root; (1)	hypothetical protein
+lagoon-sample2_10_4	1295	5226	6521	lagoon-sample2_10	8155	+		root; (1)	hypothetical protein
+lagoon-sample2_10_5	638	6555	7193	lagoon-sample2_10	8155	+		root; (1)	hypothetical protein
+lagoon-sample2_10_6	572	7583	8155	lagoon-sample2_10	8155	-		root; (1)	hypothetical protein
+10_1_tRNA	72	7290	7362	lagoon-sample2_10	8155	+		root; (1)	tRNA-Asn
+10_0_tRNA	72	3593	3665	lagoon-sample2_10	8155	+		root; (1)	tRNA-Asn
+lagoon-sample2_81_0	485	1	486	lagoon-sample2_81	486	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Firmibacteria Murray 1988;Lactobacillales Ludwig et al. 2010;Carnobacteriaceae Ludwig et al. 2010;Trichococcus Scheff et al. 1984 emend. Liu et al. 2002; (82802)	MULTISPECIES: MetQ/NlpA family ABC transporter substrate-binding protein
+lagoon-sample2_21_0	95	2	97	lagoon-sample2_21	706	-		root; (1)	hypothetical protein
+lagoon-sample2_21_1	614	90	704	lagoon-sample2_21	706	-		root; (1)	hypothetical protein
+lagoon-sample2_2_0	227	3	230	lagoon-sample2_2	470	+		root; (1)	hypothetical protein
+lagoon-sample2_2_1	167	302	469	lagoon-sample2_2	470	-		root; (1)	hypothetical protein
+lagoon-sample2_18_0	503	2	505	lagoon-sample2_18	595	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Firmibacteria Murray 1988;Lactobacillales Ludwig et al. 2010;Carnobacteriaceae Ludwig et al. 2010;Trichococcus Scheff et al. 1984 emend. Liu et al. 2002; (82802)	PTS system mannose/fructose/sorbose family transporter subunit IID
+lagoon-sample2_32_0	245	25	270	lagoon-sample2_32	746	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Tissierellia;unclassified Tissierellia;Sedimentibacter Breitenstein et al. 2002; (190972)	MULTISPECIES: DUF1292 domain-containing protein
+lagoon-sample2_32_1	443	302	745	lagoon-sample2_32	746	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Tissierellia;unclassified Tissierellia;Sedimentibacter Breitenstein et al. 2002; (190972)	Ferric uptake regulator, Fur family # K03711
+lagoon-sample2_76_0	242	3	245	lagoon-sample2_76	339	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;gamma subgroup;gamma-3 proteobacteria; (91347)	neurotensin receptor R8
+lagoon-sample2_43_0	644	3	647	lagoon-sample2_43	649	+		root; (1)	hypothetical protein
+lagoon-sample2_117_0	479	2	481	lagoon-sample2_117	483	+		root; (1)	hypothetical protein
+lagoon-sample2_17_0	491	3	494	lagoon-sample2_17	496	+		root;cellular organisms;prokaryotes;Terrabacteria group;green nonsulfur bacteria;Anaerolineae Yamada et al. 2006;Anaerolineales Yamada et al. 2006;Anaerolineaceae Yamada et al. 2006; (292628)	glycosyltransferase family 4 protein
+lagoon-sample2_105_0	230	83	313	lagoon-sample2_105	315	-		root; (1)	hypothetical protein
+11_0_rRNA	0	1	223	lagoon-sample2_11	0	+		root; (1)	16S rRNA
+lagoon-sample2_94_0	638	1	639	lagoon-sample2_94	1533	+		root; (1)	hypothetical protein
+lagoon-sample2_94_1	374	691	1065	lagoon-sample2_94	1533	+		root; (1)	hypothetical protein
+lagoon-sample2_94_2	374	1157	1531	lagoon-sample2_94	1533	+		root; (1)	# GT2 # bacteria #
+lagoon-sample2_113_0	80	3	83	lagoon-sample2_113	2371	-		root; (1)	hypothetical protein
+lagoon-sample2_113_1	911	70	981	lagoon-sample2_113	2371	-		root; (1)	hypothetical protein
+lagoon-sample2_113_2	1178	1192	2370	lagoon-sample2_113	2371	-		root; (1)	hypothetical protein
+lagoon-sample2_83_0	329	2	331	lagoon-sample2_83	331	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup;Desulfovibrionales Kuever et al. 2006;Desulfomicrobiaceae Kuever et al. 2006 emend. Watanabe et al. 2015;Desulfomicrobium Rozanova et al. 1994 emend. Dias et al. 2008;strain ESC 1; (29503)	MULTISPECIES: sigma-54-dependent Fis family transcriptional regulator
+lagoon-sample2_30_0	2030	171	2201	lagoon-sample2_30	2201	-		root; (1)	hypothetical protein
+lagoon-sample2_52_0	326	1	327	lagoon-sample2_52	329	+		root;cellular organisms;prokaryotes;Fibrobacteres/Acidobacteria group;Cytophagales/Green sulfur bacteria group;Cytophaga-Flexibacter-Bacteroides phylum;Bacteroidia Krieg 2012;Bacteroidales Krieg 2012; (171549)	FtsX-like permease family protein
+lagoon-sample2_48_0	386	1	387	lagoon-sample2_48	388	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953; (186802)	terminase large subunit
+lagoon-sample2_87_0	86	1	87	lagoon-sample2_87	496	-		root; (1)	hypothetical protein
+lagoon-sample2_87_1	350	146	496	lagoon-sample2_87	496	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Clostridium Prazmowski 1880 emend. Lawson and Rainey 2016; (1485)	DUF1292 domain-containing protein
+lagoon-sample2_13_0	407	2	409	lagoon-sample2_13	472	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Firmibacteria Murray 1988;Lactobacillales Ludwig et al. 2010;Carnobacteriaceae Ludwig et al. 2010;Trichococcus Scheff et al. 1984 emend. Liu et al. 2002; (82802)	peptide ABC transporter substrate-binding protein
+lagoon-sample2_63_0	1415	1	1416	lagoon-sample2_63	2170	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Firmibacteria Murray 1988;Lactobacillales Ludwig et al. 2010;Carnobacteriaceae Ludwig et al. 2010;Trichococcus Scheff et al. 1984 emend. Liu et al. 2002; (82802)	MULTISPECIES: copper-translocating P-type ATPase
+lagoon-sample2_63_1	251	1434	1685	lagoon-sample2_63	2170	+		root; (1)	hypothetical protein
+lagoon-sample2_63_2	203	1769	1972	lagoon-sample2_63	2170	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Firmibacteria Murray 1988;Lactobacillales Ludwig et al. 2010;Carnobacteriaceae Ludwig et al. 2010;Trichococcus Scheff et al. 1984 emend. Liu et al. 2002; (82802)	MULTISPECIES: heavy-metal-associated domain-containing protein
+lagoon-sample2_53_0	434	3	437	lagoon-sample2_53	438	+		root; (1)	hypothetical protein
+lagoon-sample2_26_0	188	146	334	lagoon-sample2_26	1942	+		root; (1)	hypothetical protein
+26_0_rRNA	0	115	361	lagoon-sample2_26	0	+		root; (1)	16S rRNA
+lagoon-sample2_20_0	332	3	335	lagoon-sample2_20	337	-		root; (1)	hypothetical protein
+lagoon-sample2_95_0	404	1	405	lagoon-sample2_95	407	-		root; (1)	hypothetical protein
+lagoon-sample2_78_0	356	2	358	lagoon-sample2_78	358	+		root;cellular organisms;prokaryotes; (2157)	ABC transporter substrate-binding protein
+lagoon-sample2_100_0	383	3	386	lagoon-sample2_100	759	+		root; (1)	hypothetical protein
+lagoon-sample2_100_1	389	368	757	lagoon-sample2_100	759	+		root; (1)	hypothetical protein
+lagoon-sample2_86_0	263	3	266	lagoon-sample2_86	348	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;gamma subgroup;gamma-3 proteobacteria; (91347)	hypothetical protein
+lagoon-sample2_74_0	344	3	347	lagoon-sample2_74	414	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup;Desulfovibrionales Kuever et al. 2006;Desulfomicrobiaceae Kuever et al. 2006 emend. Watanabe et al. 2015;Desulfomicrobium Rozanova et al. 1994 emend. Dias et al. 2008; (898)	pitrilysin
+lagoon-sample2_101_0	980	1	981	lagoon-sample2_101	2223	+		root; (1)	# GT2 # bacteria #
+lagoon-sample2_101_1	662	1000	1662	lagoon-sample2_101	2223	+		root; (1)	hypothetical protein
+lagoon-sample2_101_2	509	1713	2222	lagoon-sample2_101	2223	-		root; (1)	hypothetical protein
+lagoon-sample2_66_0	689	2	691	lagoon-sample2_66	821	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Clostridium Prazmowski 1880 emend. Lawson and Rainey 2016; (1485)	voltage-gated chloride channel family protein
+lagoon-sample2_66_1	179	642	821	lagoon-sample2_66	821	-		root; (1)	hypothetical protein
+lagoon-sample2_77_0	425	2	427	lagoon-sample2_77	429	+		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup;Desulfovibrionales Kuever et al. 2006;Desulfomicrobiaceae Kuever et al. 2006 emend. Watanabe et al. 2015;Desulfomicrobium Rozanova et al. 1994 emend. Dias et al. 2008; (898)	phosphonate C-P lyase system protein PhnH
+lagoon-sample2_79_0	320	9	329	lagoon-sample2_79	330	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953; (186802)	TlpA family protein disulfide reductase
+lagoon-sample2_33_0	986	3	989	lagoon-sample2_33	1275	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Firmibacteria Murray 1988;Lactobacillales Ludwig et al. 2010;Carnobacteriaceae Ludwig et al. 2010;Trichococcus Scheff et al. 1984 emend. Liu et al. 2002; (82802)	30S ribosomal protein S1 # K02945
+lagoon-sample2_33_1	107	1167	1274	lagoon-sample2_33	1275	+		root; (1)	hypothetical protein
+lagoon-sample2_61_0	329	3	332	lagoon-sample2_61	333	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933; (31979)	Fe-only nitrogenase accessory protein AnfO
+lagoon-sample2_57_0	323	2	325	lagoon-sample2_57	326	-		root; (1)	amidohydrolase
+lagoon-sample2_68_0	299	1	300	lagoon-sample2_68	610	+		root; (1)	hypothetical protein
+lagoon-sample2_46_0	1019	2	1021	lagoon-sample2_46	1021	-		root; (1)	hypothetical protein
+lagoon-sample2_16_0	479	2	481	lagoon-sample2_16	491	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Clostridium Prazmowski 1880 emend. Lawson and Rainey 2016; (1485)	CatB-related O-acetyltransferase
+lagoon-sample2_58_0	878	1	879	lagoon-sample2_58	881	+		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;not Epsilobacteria Cavalier-Smith 2002;Campylobacterales Garrity et al. 2006;Campylobacteraceae Vandamme and De Ley 1991;Sulfurospirillum Schumacher et al. 1993 emend. Luijten et al. 2003; (57665)	hypothetical protein
+lagoon-sample2_42_0	380	1	381	lagoon-sample2_42	509	+		root; (1)	hypothetical protein
+lagoon-sample2_42_1	98	409	507	lagoon-sample2_42	509	+		root; (1)	hypothetical protein
+24_0_rRNA	0	56	320	lagoon-sample2_24	0	+		root; (1)	16S rRNA
+lagoon-sample2_37_0	401	3	404	lagoon-sample2_37	404	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+; (1239)	MULTISPECIES: cation:dicarboxylase symporter family transporter
+lagoon-sample2_70_0	395	1	396	lagoon-sample2_70	396	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;not Thiobacteria Cavalier-Smith 2002;delta subgroup; (28221)	sulfatase-like hydrolase/transferase
+lagoon-sample2_5_0	242	276	518	lagoon-sample2_5	518	+		root; (1)	hypothetical protein
+5_0_tRNA	72	380	452	lagoon-sample2_5	518	-		root; (1)	tRNA-Ala
+lagoon-sample2_115_0	506	3	509	lagoon-sample2_115	510	+		root; (1)	# GH116 # bacteria #
+lagoon-sample2_106_0	626	104	730	lagoon-sample2_106	818	+		root; (1)	hypothetical protein
+lagoon-sample2_108_0	299	1	300	lagoon-sample2_108	302	-		root; (1)	hypothetical protein
+lagoon-sample2_12_0	101	334	435	lagoon-sample2_12	437	+		root; (1)	hypothetical protein
+12_0_rRNA	0	68	437	lagoon-sample2_12	0	+		root; (1)	16S rRNA
+lagoon-sample2_91_0	317	1	318	lagoon-sample2_91	366	+		root; (1)	hypothetical protein
+lagoon-sample2_90_0	641	2	643	lagoon-sample2_90	5155	+		root; (1)	hypothetical protein
+lagoon-sample2_90_1	1097	657	1754	lagoon-sample2_90	5155	+		root;cellular organisms;prokaryotes;Fibrobacteres/Acidobacteria group;Cytophagales/Green sulfur bacteria group;Cytophaga-Flexibacter-Bacteroides phylum;Bacteroidia Krieg 2012;Bacteroidales Krieg 2012;unclassified Bacteroidales;unclassified Bacteroidales (miscellaneous);Bacteroides sp. CF50; (1400053)	methylmalonyl Co-A mutase-associated GTPase MeaB
+lagoon-sample2_90_2	1163	1755	2918	lagoon-sample2_90	5155	+		root;cellular organisms;prokaryotes;Fibrobacteres/Acidobacteria group;Cytophagales/Green sulfur bacteria group;Cytophaga-Flexibacter-Bacteroides phylum;Bacteroidia Krieg 2012;Bacteroidales Krieg 2012;unclassified Bacteroidales;unclassified Bacteroidales (miscellaneous);Bacteroides sp. CF50; (1400053)	arsenic efflux protein
+lagoon-sample2_90_3	2039	2943	4982	lagoon-sample2_90	5155	-		root;cellular organisms;prokaryotes;Fibrobacteres/Acidobacteria group;Cytophagales/Green sulfur bacteria group;Cytophaga-Flexibacter-Bacteroides phylum;Bacteroidia Krieg 2012;Bacteroidales Krieg 2012;unclassified Bacteroidales;unclassified Bacteroidales (miscellaneous);Bacteroides sp. CF50; (1400053)	transcription termination factor Rho
+lagoon-sample2_99_0	272	3	275	lagoon-sample2_99	864	-		root; (1)	# GT2 # bacteria #
+lagoon-sample2_99_1	551	313	864	lagoon-sample2_99	864	-		root; (1)	hypothetical protein
+lagoon-sample2_31_0	335	2	337	lagoon-sample2_31	337	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933; (31979)	Sugar kinases, ribokinase family # K00874
+lagoon-sample2_45_0	107	1	108	lagoon-sample2_45	417	-		root; (1)	hypothetical protein
+lagoon-sample2_45_1	308	109	417	lagoon-sample2_45	417	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Proteiniclasticum Zhang et al. 2010;strain D3RC-2; (398199)	acyl-CoA synthetase FdrA
+lagoon-sample2_51_0	167	2	169	lagoon-sample2_51	477	-		root; (1)	hypothetical protein
+lagoon-sample2_51_1	224	251	475	lagoon-sample2_51	477	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+; (1239)	DUF302 domain-containing protein
+lagoon-sample2_73_0	863	2	865	lagoon-sample2_73	865	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Proteiniclasticum Zhang et al. 2010;strain D3RC-2; (398199)	helicase-exonuclease AddAB subunit AddB
+lagoon-sample2_15_0	143	2	145	lagoon-sample2_15	561	-		root; (1)	hypothetical protein
+lagoon-sample2_15_1	440	120	560	lagoon-sample2_15	561	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;unclassified Clostridiales;Intestinimonas Klaring et al. 2013;strain SRB-521-5-I; (1297617)	EF2563 family selenium-dependent molybdenum hydroxylase system protein
+lagoon-sample2_39_0	476	3	479	lagoon-sample2_39	484	+		root; (1)	hypothetical protein
+lagoon-sample2_103_0	464	2	466	lagoon-sample2_103	722	-		root; (1)	hypothetical protein
+lagoon-sample2_103_1	92	628	720	lagoon-sample2_103	722	+		root; (1)	hypothetical protein
+lagoon-sample2_107_0	467	2	469	lagoon-sample2_107	471	+		root; (1)	hypothetical protein
+lagoon-sample2_75_0	413	3	416	lagoon-sample2_75	460	+		root;cellular organisms;prokaryotes;Terrabacteria group;green nonsulfur bacteria;Anaerolineae Yamada et al. 2006;Anaerolineales Yamada et al. 2006;Anaerolineaceae Yamada et al. 2006; (292628)	transglycosylase domain-containing protein
+8_0_rRNA	0	1	225	lagoon-sample2_8	0	+		root; (1)	16S rRNA
+lagoon-sample2_89_0	341	3	344	lagoon-sample2_89	345	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;gamma subgroup; (1236)	MULTISPECIES: universal stress protein
+lagoon-sample2_60_0	656	2	658	lagoon-sample2_60	859	-		root; (1)	hypothetical protein
+lagoon-sample2_88_0	320	2	322	lagoon-sample2_88	690	-		root; (1)	hypothetical protein
+lagoon-sample2_88_1	215	475	690	lagoon-sample2_88	690	-		root; (1)	hypothetical protein
+lagoon-sample2_35_0	347	2	349	lagoon-sample2_35	759	+		root;cellular organisms;prokaryotes;Fibrobacteres/Acidobacteria group;Cytophagales/Green sulfur bacteria group;Cytophaga-Flexibacter-Bacteroides phylum;Bacteroidia Krieg 2012;Bacteroidales Krieg 2012;Bacteroidaceae Pribram 1933;Ristella;strain XDT-1; (477666)	MULTISPECIES: DUF4348 domain-containing protein
+lagoon-sample2_35_1	392	366	758	lagoon-sample2_35	759	+		root;cellular organisms;prokaryotes;Fibrobacteres/Acidobacteria group;Cytophagales/Green sulfur bacteria group;Cytophaga-Flexibacter-Bacteroides phylum;Bacteroidia Krieg 2012;Bacteroidales Krieg 2012;Bacteroidaceae Pribram 1933;Ristella;strain XDT-1; (477666)	MULTISPECIES: UDP-N-acetylmuramate dehydrogenase
+lagoon-sample2_29_0	371	2	373	lagoon-sample2_29	374	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Proteiniclasticum Zhang et al. 2010;strain D3RC-2; (398199)	cytidyltransferase
+lagoon-sample2_28_0	143	2	145	lagoon-sample2_28	410	-		root; (1)	hypothetical protein
+28_0_rRNA	0	46	249	lagoon-sample2_28	0	+		root; (1)	16S rRNA
+lagoon-sample2_72_0	272	164	436	lagoon-sample2_72	436	-		root;cellular organisms;prokaryotes; (2157)	DUF554 domain-containing protein
+lagoon-sample2_111_0	515	3	518	lagoon-sample2_111	518	+		root; (1)	hypothetical protein
+lagoon-sample2_3_0	101	1	102	lagoon-sample2_3	480	-		root; (1)	hypothetical protein
+3_0_tRNA	72	339	411	lagoon-sample2_3	480	-		root; (1)	tRNA-Ala
+lagoon-sample2_92_0	311	1	312	lagoon-sample2_92	312	+		root; (1)	hypothetical protein
+lagoon-sample2_110_0	152	1	153	lagoon-sample2_110	310	-		root; (1)	hypothetical protein
+lagoon-sample2_22_0	68	1	69	lagoon-sample2_22	665	+		root; (1)	hypothetical protein
+22_0_rRNA	0	27	665	lagoon-sample2_22	0	+		root; (1)	16S rRNA
+lagoon-sample2_104_0	797	2	799	lagoon-sample2_104	799	-		root; (1)	hypothetical protein
+lagoon-sample2_114_0	317	1	318	lagoon-sample2_114	318	+		root; (1)	hypothetical protein
+lagoon-sample2_7_0	134	1	135	lagoon-sample2_7	325	+		root; (1)	hypothetical protein
+7_0_rRNA	0	21	325	lagoon-sample2_7	0	+		root; (1)	16S rRNA
+lagoon-sample2_65_0	515	3	518	lagoon-sample2_65	592	+		root;cellular organisms;eukaryotes;opisthokonts;multicellular animals;Eumetazoa;Bilateria;deuterostomes;chordates;Craniata;vertebrates;jawed vertebrates;Teleostomi;bony vertebrates;Sarcopterygii;Dipnotetrapodomorpha;tetrapods;amniotes;sauropsids;diapsids;reptiles;squamates;split-tongued squamates;Unidentata;scincomorph lizards;skinks;Sphenomorphinae;Ristella Gray 1839; (245672)	MULTISPECIES: argininosuccinate lyase
+lagoon-sample2_71_0	215	128	343	lagoon-sample2_71	343	-		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953; (186802)	MULTISPECIES: hydrogenase maturation protease
+lagoon-sample2_50_0	410	3	413	lagoon-sample2_50	413	+		root;cellular organisms;prokaryotes;Terrabacteria group;low GC Gram+;Clostridia Rainey 2010;Clostridiales Prevot 1953;Clostridiaceae Pribram 1933;Proteiniclasticum Zhang et al. 2010;strain D3RC-2; (398199)	protein translocase subunit SecF
+lagoon-sample2_118_0	806	2	808	lagoon-sample2_118	4995	+		root; (1)	# GT9 # bacteria #
+lagoon-sample2_118_1	1280	983	2263	lagoon-sample2_118	4995	-		root; (1)	hypothetical protein
+lagoon-sample2_118_2	347	2275	2622	lagoon-sample2_118	4995	-		root; (1)	hypothetical protein
+lagoon-sample2_118_3	341	3068	3409	lagoon-sample2_118	4995	+		root; (1)	hypothetical protein
+lagoon-sample2_118_4	1253	3393	4646	lagoon-sample2_118	4995	+		root; (1)	hypothetical protein
+lagoon-sample2_118_5	128	4865	4993	lagoon-sample2_118	4995	+		root; (1)	hypothetical protein
+lagoon-sample2_44_0	1862	2	1864	lagoon-sample2_44	2627	-		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;gamma subgroup;gamma-3 proteobacteria; (91347)	MULTISPECIES: choline BCCT transporter BetT
+lagoon-sample2_44_1	443	2123	2566	lagoon-sample2_44	2627	+		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;gamma subgroup;gamma-3 proteobacteria; (91347)	nickel-responsive transcriptional regulator NikR
+lagoon-sample2_0_0	329	3	332	lagoon-sample2_0	333	+		root;cellular organisms;prokaryotes;purple photosynthetic bacteria and relatives;gamma subgroup;gamma-3 proteobacteria; (91347)	Phosphoribosylformylglycinamidine synthase # K01952
