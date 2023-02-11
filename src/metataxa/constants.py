@@ -1,4 +1,8 @@
+from enum import Enum
+from typing import Type
 
-DELTA = "DELTA"
-DELTA_STAR = "DELTA_STAR"
-DELTA_PLUS = "DELTA_PLUS"
+
+class DeltaType(Enum):
+    DELTA = "DELTA"
+    DELTA_STAR = "DELTA_STAR"
+    DELTA_PLUS = "DELTA_PLUS"
