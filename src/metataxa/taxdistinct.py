@@ -3,63 +3,55 @@ from nodes import NODE
 from typing import Pattern, Tuple, List
 import re
 
-def insert_node( node: NODE , tax_hierarchy list[str], depth: int = 0, present_absent: bool = False)->
-
+def insert_node( node: NODE , tax_hierarchy List[str], depth: int = 0, present_absent: bool = False)->
     """
     Inserts a node in to the tree based on the name of the taxon 
-    to create the taxonomy tree
+    to create the taxonomy tree.
 
-    Parameters:
-    node (NODE): A NODE to start creating the taxonomy tree because it is implemented in a recursive manner   
-    tax_hierarchy (str): The vetor of strings that encodes the taxonomic hierachy, e.g., "<taxA, taxB, taxC, taxD> for taxA;taxB;taxC;taxD
-    depth (int): The depth of the taxa hierarchy we can insert into the tree.
-
-    Returns: 
-    None
+    :param node: A NODE to start creating the taxonomy tree because it is implemented in a recursive manner.  
+    :param tax_hierarchy: The vector of strings that encodes the taxonomic hierachy, e.g., "<taxA, taxB, taxC, taxD> for taxA;taxB;taxC;taxD
+    :param depth: The depth of the taxa hierarchy we can insert into the tree.
+     
     """
-  n: NODE = None
-
-  if node == None: 
-    node  = NODE();
-    node.name = tax_hierarchy[depth]
-    node.depth = depth
-
-  if len((tax_hierarchy) == 1:  
-    if present_absent:
-       node.count = 0
-    node.count += 1
-
-  if len(tax_hierarchy) > depth + 1:
-     depth = depth + 1
-
-     if tax_hierarchy[depth] in node.children:
-       n = NODE()
-       n.name = tax_hierarchy[depth]
-       n.depth = depth
-       node.children.append((tax_hierarchy[depth], n)) 
-       print(f"\t{n.name} : {depth}")
-     else: 
-       n = node.children[tax_hierarchy[depth]];
-
-     if len(tax_hierarchy) == depth + 1:
-       if present_absent:
-         n.count = 1
-       else:
-         n->count += 1
-
-     # print(f"\t{depth}")
-     insert_node(n, tax_hierarchy, depth, present_absent)
-
-def _sum_tree_count_(node: NODE, sum:int)-> None:
-   """
-   Computes the sum of all the taxon nodes in the 
+    n: NODE = None
   
-   Parameters:
-   node [NODE]: A node in the tree
-   sum: The sum variable
+    if node == None: 
+      node  = NODE();
+      node.name = tax_hierarchy[depth]
+      node.depth = depth
+  
+    if len((tax_hierarchy) == 1:  
+      if present_absent:
+         node.count = 0
+      node.count += 1
+  
+    if len(tax_hierarchy) > depth + 1:
+       depth = depth + 1
+  
+       if tax_hierarchy[depth] in node.children:
+         n = NODE()
+         n.name = tax_hierarchy[depth]
+         n.depth = depth
+         node.children.append((tax_hierarchy[depth], n)) 
+         print(f"\t{n.name} : {depth}")
+       else: 
+         n = node.children[tax_hierarchy[depth]];
+  
+       if len(tax_hierarchy) == depth + 1:
+         if present_absent:
+           n.count = 1
+         else:
+           n->count += 1
+  
+       # print(f"\t{depth}")
+       insert_node(n, tax_hierarchy, depth, present_absent)
 
-   Returns:
-   None
+def _sum_tree_count_(node: NODE, _sum: int )-> None:
+   """
+   Computes the sum of all the taxon nodes in the sub-tree rooted at node.
+  
+   :param node: A node in the tree taxonomic tree.
+   :param _sum: The _sum variable retains the value/result after the fuction call..
    """
    sum = sum + node.count;
    for taxon, child_node in node.children.items():
@@ -68,13 +60,9 @@ def _sum_tree_count_(node: NODE, sum:int)-> None:
 
 def sum_tree_count(node: NODE) -> int:
    """
-   Computes the sum of all the taxon nodes in the tree
+   Computes the sum of all the counts of taxon nodes in the tree rooted at node
 
-   Parameters:
-   param [NODE]:  node in the tree
-
-   Returns:
-     the sum total of the node counts
+   :param node:  A node in the tree
    """
 
    sum: int = 0
@@ -84,13 +72,9 @@ def sum_tree_count(node: NODE) -> int:
 
 def subtree_count(node: NODE)->int:
    """
-   Updates the subtree_count variable for each NODE in the tree
+   Updates the subtree_count variable for each NODE in the sub-tree rooted at "node".
 
-   Parameters:
-   node [NODE]: Any NODE in the tree
-
-   Returns:
-   Count for subtree rooted at NODE node
+   :param node: Any NODE in the tree.
    """
 
    _sum: int = node.count
@@ -104,13 +88,9 @@ def subtree_count(node: NODE)->int:
 
 def ___delete_tree(node: NODE)->None:
    """
-   Recursively deletes the nodes in the sub-tree rooted in node
+   Recursively deletes the nodes in the sub-tree rooted in node ``node".
 
-   Parameters:
-   node [NODE]: Root NODE of the sub-tree 
-
-   Returns:
-   None
+   :param node: Root NODE of the sub-tree to start deleting from.
    """
 
    for child_node in node.children:
@@ -120,80 +100,65 @@ def ___delete_tree(node: NODE)->None:
 
 def delete_tree(node: NODE)->None: 
    """
-   Deletes the nodes in the sub-tree rooted in node
+   Deletes the nodes in the sub-tree rooted in node.
 
-   Parameters:
-   node [NODE]: Root NODE of the tree 
-
-   Returns:
-   None
+   :param node: Root NODE of the tree .
    """
 
    __delete_tree(node)
-   node = None;
+   node = None
 
 
-/**
- * @brief _count_edge_crossings The sum of the number of pairs of taxons in the tree 
- *   that crosses the edge across all edges
- *
- * @param node         The root node
- * @param total_count  The total count of the tree at that node
- * @return total sum-product across all edges
- */
-double _count_edge_crossings_(NODE *node, const int tot_count, bool use_wtd) {
+def _count_edge_crossings_(NODE *node, const int tot_count, bool use_wtd)->float:
+    """
+    Counts the total number of edge crossings from the various species. This can also compute with 
+    WTD consideration as weights on the edges.
 
+    :param node: The root node of the tree/sub-tree for which the edge-corossing is counted.
+    :param total_count: The total count of the tree at that node.
+    :param use_wtd: Use WTD edge weighting if it is True.
+    :return: Number of edge-crossings in the tree.
+    """
+    _sum: float = 0
+    for child_node in node.children:
+        if use_wtd: 
+            _sum = _sum + (tot_count - child_node[1].subtree_count) * child_node[1].subtree_count * pow(0.5, child_node[1].depth)
+        else:
+            _sum = _sum + (tot_count - child_node[1].subtree_count) * child_node[1].subtree_count
+        _sum = _sum + _count_edge_crossings_(child_node[1], tot_count, use_wtd)
+ 
+    return sum;
 
-   double sum = 0;
-   for (auto it = node->children.begin(); it != node->children.end(); it++) {
-     if (use_wtd) {
-       sum = sum + (tot_count - it->second->subtree_count) * it->second->subtree_count * 
-         pow(0.5, it->second->depth);
-     } else {
-       sum = sum + (tot_count - it->second->subtree_count) * it->second->subtree_count;
-     }
-     sum = sum + _count_edge_crossings_(it->second, tot_count, use_wtd);
-   }
-   return sum;
-}
+def __get_count_vector(node: NODE, count_vector: List[int])->None:
+    """
+    Returns the vector of counts for all nodes in the tree.
+  
+    :param node: The root node of the tree.
+    :param count_vector: The vector of the taxonomic counts for the nodes in the sub-tree rooted in the "node".
+    """
 
-/**
- * @brief _get_count_vector  This function returns the vector of counts for all 
- *   nodes in the tree
- *
- * @param node          The pointer to the node, which is the root of the tree
- * @param count_vector  The vector of the taxonomic counts for the nodes
- */
-void _get_count_vector(NODE *node, vector<int> &count_vector) {
+    if node.count:
+       count_vector.append(node.count)
 
-   if (node->count > 0) {
-      count_vector.push_back(node->count);
-   }
+    for child_node in node.children:
+       __get_count_vector(child_node[1], count_vector)
 
-   for (auto it = node->children.begin(); it != node->children.end(); it++) {
-      _get_count_vector(it->second, count_vector);
-   }
-}
-
-def compute_delta(node: NODE, deltatype: DeltaType, use_wtd: bool):
+def compute_delta(node: NODE, deltatype: DeltaType, use_wtd: bool)->float:
    """
-   Compute delta star
+   Computes the delta star for the tree rooted in node.
 
-   Parameters:
-   node [NODE]: Node for the subtree to compute delta star
-   deltatype [DeltaType]: Type of the delta 
-   use_wtd [bool]: Flag to indicate whether it is WTD
-
-   Returns:
-    A double representing the computed delta
+   :param node: Node for the subtree to compute delta star.
+   :param deltatype: Type of the delta.
+   :param use_wtd: Flag to indicate whether WTD should be used in the calculation of the edge corssings.
+   :return: A double representing the computed delta.
    """
 
    tot_count: int = node.subtree_count
    prod_count: double = _count_edge_crossings_(node, tot_count, use_wtd)
 
-   count_vector: list[int]=[]
+   count_vector: List[int]=[]
 
-   _get_count_vector(node, count_vector)
+   __get_count_vector(node, count_vector)
 
    # sum-product for all distinct counts for the taxons
    delta: float = 0; 
@@ -212,16 +177,12 @@ def compute_delta(node: NODE, deltatype: DeltaType, use_wtd: bool):
    # print(f"prod_count {prod_count}  {sum_product}")
    return delta;
 
-def _print_tree_(node: NODE, taxons: list[str]): 
-   """* 
-   The node that prints taxon and node count for the tree 
+def _print_tree_(node: NODE, taxons: List[str])->None: 
+   """ 
+   Prints the sub-tree rooted at the node "node".
   
-   Parameters:
-   node [NODE]: The NODE for the node of the tree
-   taxons list[str]:  Reference to the vector of the taxons 
-
-   Returns:
-   None
+   :param node: The NODE for the node of the tree.
+   :param taxons:  List for implementing stack operations of string used for printing the taxa in the taxa-tree.
    """
 
    taxons.append(node.name)
@@ -238,12 +199,11 @@ def _print_tree_(node: NODE, taxons: list[str]):
 
 def print_tree(node: NODE)-> None:
    """
-   Prints the taxons and the counts in the tree
+   Prints the taxons and the counts in the tree.
 
-   Parameters:
-   node [NODE]:  The root NODE for the tree
+   :param node: The root NODE for the tree.
    """
-   taxons: list[str] = []
+   taxons: List[str] = []
    _print_tree_(node, taxons)
  
 
@@ -251,11 +211,8 @@ def read_tax_file(tax_file_name: str)-> NODE:
   """
   Reads the taxa file 
 
-  Parameters:
-  tax_file_name [str]: Taxa file name
-
-  Returns:
-  The root NODE for the taxa in the file 
+  :param tax_file_name: Input file name for the  taxa in the sample
+  :return: The root NODE for the taxa in the file 
   """
 
   print(f"TODO: Make taxa names case insensitive")
@@ -263,7 +220,7 @@ def read_tax_file(tax_file_name: str)-> NODE:
   count_regex_patt: Pattern[str]  = re.compile("(\\([0-9]+\\)$)")
 
   tree: NODE = None
-  taxstring: list[str] = []
+  taxstring: List[str] = []
 
   with open(tax_file_name, 'rb') if newfile.endswith('.gz') else open(tax_file_name, 'r') as newfile: 
   # open a file to perform read operation using file object
@@ -274,7 +231,7 @@ def read_tax_file(tax_file_name: str)-> NODE:
       for tp: str in newfile.readline():
           # print the data of the string
           # print(tp)
-          taxstring: list[str]  = tp.split('\t')
+          taxstring: List[str]  = tp.split('\t')
           if len(taxstring) >= 10:
               strmatch_result = re.search(taxstring[8], root_regex_patt)
               if strmatch_result:
@@ -292,13 +249,10 @@ def read_tax_file(tax_file_name: str)-> NODE:
 
 def create_orf_tax_map(tax_file_name: str) -> dict[str, str]:
    """
-   Create an ORF to taxon map from the functional and taxonomic file
+   Creates an ORF-to-taxon map from the functional and taxonomic file.
  
-   Parameters:
-   tax_file_name [str]: Taxonomy file name
-
-   Returns:
-   dict[str, str], an ORF to taxon map
+   :param tax_file_name: Input file name for taxonomy.
+   :returns: A dict[str, str] as a ORF to taxon map.
    """
 
    orf_tax_map: dict[str, str]  = dict[str, str]
@@ -314,7 +268,7 @@ def create_orf_tax_map(tax_file_name: str) -> dict[str, str]:
            # print the data of the string
            # print(tp)
  
-         taxstring: list[str] = tp.split('\t')
+         taxstring: List[str] = tp.split('\t')
          if len(taxstring) < 9:
             continue
  
@@ -323,17 +277,16 @@ def create_orf_tax_map(tax_file_name: str) -> dict[str, str]:
             std::string taxon: [str] = re.sub(taxstring[8], count_regex_patt, "")
             orf_tax_map.append((taxstring, taxon))
 
-  return orf_tax_map;
+  return orf_tax_map
 
-def read_pwy_file(const string &pwy_filename)-> dict[str, list[str]]:
+def read_pwy_file(const string &pwy_filename)-> dict[str, List[str]]:
     """
-    Creates a map from pwy name to a vector of ORF names
+    Creates a map from pwy name to a vector of ORF names.
     
-    Parameters:
-    pwy_filename [str]: Filename with the pathway and corresponding ORFs in each pathway in the sample
+    :param pwy_filename: File name with the pathway and corresponding ORFs in each pathway in the sample.
     """
 
-    pwy_orf: dict[str, list[str]= dict()
+    pwy_orf: dict[str, List[str]= dict()
   
     k: int = 0
   
@@ -345,10 +298,10 @@ def read_pwy_file(const string &pwy_filename)-> dict[str, list[str]]:
            # print the data of the string
            # print(tp)
    
-           orfstring: list[str] = tp.split('\t')
+           orfstring: List[str] = tp.split('\t')
            if len(taxstring) >= 2:
               pwy: str = taxstring[0]
-              pwy_orflist: Tuple[str, list[str]] = (pwy, [orf for orf in orfstring[1:]]:List[str][])
+              pwy_orflist: Tuple[str, List[str]] = (pwy, [orf for orf in orfstring[1:]]:List[str][])
               pwy_orf.append(pwy_orflist)
     print(f"No of pwys inserted {k}")
     return pwy_orf;
@@ -356,10 +309,9 @@ def read_pwy_file(const string &pwy_filename)-> dict[str, list[str]]:
 
 def delete_pwy_orfs(pwy_orf: dict[str, List[str]]) {
     """
-    Deletes the pathway orfs
+    Deletes the pathway to ORF mapping.
     
-    Parameters:
-    pwy_orf dict[str, List[str]]: Map of pathways to the list of ORFs.
+    :param pwy_orf: Map of pathways to the list of ORFs.
     """
 
     # delete the vectors allocated
@@ -368,42 +320,36 @@ def delete_pwy_orfs(pwy_orf: dict[str, List[str]]) {
     pwy_orf.clear()
 
 
-def create_tree(taxa: list[str], present_absent: bool): 
-   """
-   Create the tree with the taxons @copydoc create_pwy_tree */
-
-   Parameters:
-   taxa list[str]: List of subtaxa that defines a lineage 
-   present_absent [bool]: Present or absent boolean flag
-
-   Returns:
-   [NODE], The root node for the tree created
-   """
-
-   root_regex_patt: Pattern[str] = re.compile("root")
-   count_regex_patt: Pattern[str] = re.compile("(\\([0-9]+\\)$)")
+def create_tree(taxa: List[str], present_absent: bool) -> NODE: 
+    """
+    Creates the tree with the taxons.
  
-   tree: NODE = None
+    :param taxa: List of subtaxa that defines a lineage when read from left-to-right.
+    :param present_absent: Present or absent boolean flag, i.e., the value of the taxa are either 0 or 1.
+    :return: The root node for the tree created.
+    """
  
-   for i in range(0, len(taxa)):
-     match_results = re.search(taxa[i], root_regex_patt)
-     if match_results: 
-       taxon: str = re.sub(taxa[i], count_regex_patt, "")
-       insert_node(tree, taxon.trim(" ").split(';'), 0, present_absent)
+    root_regex_patt: Pattern[str] = re.compile("root")
+    count_regex_patt: Pattern[str] = re.compile("(\\([0-9]+\\)$)")
+  
+    tree: NODE = None
+  
+    for i in range(0, len(taxa)):
+      match_results = re.search(taxa[i], root_regex_patt)
+      if match_results: 
+        taxon: str = re.sub(taxa[i], count_regex_patt, "")
+        insert_node(tree, taxon.trim(" ").split(';'), 0, present_absent)
+  
+    return tree
  
-   return tree;
-
-def Delta(taxa: list[str], DeltaType deltatype, wtd_based: bool):
+def Delta(taxa: List[str], DeltaType deltatype, wtd_based: bool)->float:
   """ 
-  Computes the  Delta 
+  Computes the  Delta for the taxa with or without WTD consideration.
 
-  Parameters:
-  taxa list[str]: List of the taxa name
-  deltatype [DeltaType]: Type of the delta 
-  use_wtd [bool]: Flag to indicate whether it is WTD
-
-  Returns:
-  A double representing the computed delta
+  :param taxa: List of the taxa name.
+  :param deltatype: Type of the delta.
+  :param use_wtd: Flag to indicate whether adjustments of the edge weights are adjusted to WTD.
+  :return: A double representing the computed delta.
   """
  
   bool present_absent = True
@@ -423,42 +369,35 @@ def Delta(taxa: list[str], DeltaType deltatype, wtd_based: bool):
 
 def create_pwy_tree(orf_taxon: dict[str, str], pwy_orf: dict[str, List[str]],  pwy: str, present_absent: bool)-> NODE:
    """
-   Create the tree for just one pathway 
+   Creates the tree for just one pathway. 
 
-   Parameters:
-   orf_taxon dict[str, str]: Map of ORF to taxon
-   pwy_orf dict[str, List[str]]: List of ORFs for the pathways
-
-   Returns:
-   [NODE], The root node for the tree created
+   :param orf_taxon: ORF-to-taxon map.
+   :param pwy_orf: A map keyed by pathways to a  list of ORFs as  dict[str, List[str]].
+   :return: The root node for the tree created.
    """
 
    root_regex_patt: Pattern[str] = re.compile("root")
    count_regex_patt: Pattern[str] = re.compile("(\\([0-9]+\\)$)")
  
-  i:int  = 0
-  tree: NODE = None
+   i:int = 0
+   tree: NODE = None
+ 
+   if pwy in pwy_orf:
+       for orfid in pwy_orf[pwy]:
+          if orfid in orf_taxon:
+              match_results = re.search(orf_taxon[orfid], root_regex_patt);
+              if match_results > 0:  
+                  taxon: str = re.sub(orf_taxon[ordid], count_regex_patt, "")
+                  insert_node(tree, taxon.trim(" ").split(';'), 0, present_absent)
+                  i += 1
+   return tree
 
-  if pwy in pwy_orf:
-      for orfid in pwy_orf[pwy]:
-         if orfid in orf_taxon:
-             match_results = re.search(orf_taxon[orfid], root_regex_patt);
-             if match_results > 0:  
-                 taxon: str = re.sub(orf_taxon[ordid], count_regex_patt, "")
-                 insert_node(tree, taxon.trim(" ").split(';'), 0, present_absent)
-                 i += 1
-  return tree
 
-
-def compute_tax_distance(tax_file_name: str) -> None :
+def compute_tax_distance(tax_file_name: str) -> None:
   """ 
-  Compute the taxonomic distance for the data in the taxonomy file
+  Computes the taxonomic distance for the data in the taxonomy file.
   
-  Parameters:
-  tax_file_name [str]: The input file with the list of taxonomic annotations in the sample 
-
-  Returns:
-  None
+  :param tax_file_name: The input file with the list of taxonomic annotations in the sample.
   """
 
   # read the file
@@ -473,22 +412,18 @@ def compute_tax_distance(tax_file_name: str) -> None :
 
 def compute_pwy_tax_distance(tax_file_name: str, pwy_orf_filename: str)->None:
   """ 
-  Compute the taxonomic distance for the data in the taxonomy file for the give pwy-to-ORF map file
+  Computes the taxonomic distance for the data in the taxonomy file for the give pwy-to-ORF map file.
   
-  Parameters:
-  tax_filename [str]: The input file with the list of taxonomic annotations in the sample 
-  pwy_orf_filename [str]: The input file with the list of ORFs for individual pathways in the sample 
-
-  Returns:
-  None
+  :param tax_filename: The input file with the list of taxonomic annotations in the sample.
+  :param pwy_orf_filename: The input file with the list of ORFs for individual pathways in the sample. 
   """
 
   # read the file
   orf_taxon: dict[str, str] = create_orf_tax_map(tax_file_name)
 
-  pwy_orfs: dict[str, list[str]] = read_pwy_file(pwy_orf_filename)
+  pwy_orfs: dict[str, List[str]] = read_pwy_file(pwy_orf_filename)
 
-  taxa: list[str] = []
+  taxa: List[str] = []
  
   print("PWY\tN\tDelta\tDelta*\tDelta+\tDelta (WTD)\tDelta* (WTD)\tDelta+ (WTD)") 
   for pwy, orflist in pwy_orfs:
