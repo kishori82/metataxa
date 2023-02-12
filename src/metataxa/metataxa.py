@@ -20,5 +20,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-
-    compute_pwy_tax_distance(args.tax_file, args.pwy_file) 
+    compute_pwy_tax_distance(args.tax_file, args.pwy_file)
